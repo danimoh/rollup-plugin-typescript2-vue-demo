@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rollup -c --environment BUILD:production"
+  },
+  "main": "./dist/MyComponent.js",
+  "devDependencies": {
+    "rollup": "^0.59.4",
+    "rollup-plugin-typescript2": "^0.18.1",
+    "rollup-plugin-vue": "^4.4.0",
+    "typescript": "^3.2.2",
+    "vue-template-compiler": "^2.5.22"
+  }
+}
