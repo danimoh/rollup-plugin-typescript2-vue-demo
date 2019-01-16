@@ -10,7 +10,11 @@
     import Vue, {VueConstructor} from 'vue'
     import AnotherComponent from './AnotherComponent.vue';
 
-    export default Vue.extend<{ name: string },
+    export default Vue.extend<
+        { 
+            name: string,
+            components: { AnotherComponent },
+        },
         {
             /* methods */
         },
